@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/Login.css" />
+    <title>Form Input Wave</title>
+    <script src="./public/javascript/validation.js"></script>
+</head>
+
+<body>
+    <form method="post" class="container" onsubmit=" return validation()">
+        <h1>Please Login</h1>
+        <form>
+            <div class="form-control">
+                <input id="username" type="text">
+                <label> Email</label>
+            </div>
+            <div class="form-control">
+                <input id="password" type="Password" required>
+                <label>Password</label>
+
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+            <p class="text">Dont have a account?<a href="./SignUp.html">Register</a></a></p>
+        </form>
+
+
+</body>
+
+</html>
